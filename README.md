@@ -5,7 +5,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### The challenge
 
-[Live Demo](https://musagenius345.github.io/testimonial-grid-section/)
+
 [Repo](https://github.com/musagenius345/testimonial-grid-section/)
 
 Users should be able to:
@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](#)
-- Live Site URL: [Add live site URL here](#)
+- Solution URL: [Repo](https://github.com/musagenius345/testimonial-grid-section/)
+- Live Site URL: [Live Demo](https://musagenius345.github.io/testimonial-grid-section/)
 
 ## My process
 
