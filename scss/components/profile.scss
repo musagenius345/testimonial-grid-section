@@ -1,20 +1,29 @@
 .profile{
   display: flex;
   justify-content: flex-start;
-  /* align-items: center; */
+  align-items: center;
   gap: 1em;
   
   &__pic{
     border-radius: 50%;
-    width: 56px;
-    heigth: 56px;
+
     
     /* object-fit: cover; */
   }
   &__info{
-    display: flex;
+    align-self: center;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly; */
+    
+    h3, h4 {
+      margin-block: 0;
+    }
   }
   
+}
+
+
+h3 + h4 {
+  margin-block-end: .2rem;
 }

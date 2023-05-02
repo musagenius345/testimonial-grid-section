@@ -1,0 +1,51 @@
+.card{
+  border-radius: 12px;
+  color: hsla(0, 0%, 100%, .8);
+  padding-inline: 5.8rem;
+  padding-block: 3.8rem;
+  
+  h4, .detail{
+    color: hsla(0, 0%, 100%, .6);
+     
+   }
+  
+  &__one {
+    background-color: hsla(263, 55%, 52%, 1);
+    position: relative;
+    &::after {
+      position: absolute;
+      content: url('/images/bg-pattern-quotation.svg');
+      top: 4%;
+      right: 3%;
+      opacity: .6;
+    }
+  }
+  &__two {
+    background-color: hsl(217, 19%, 35%);
+  }
+  &__three, &__five {
+    background-color: hsla(0, 0%, 100%, 1);
+    
+    h4, .qoute{
+      color: hsla(217, 19%, 35%, .8);
+    }
+    .detail, h3{
+      color: hsl(217, 19%, 35%);
+      
+    }
+  }
+  /* &__three {
+    background-color: hsla(0, 0%, 100%, 1);
+  } */
+  &__four {
+    background-color: #18202d;
+    color: hsla(0, 0%, 81%, 1);
+  }
+  /* &__five {
+    background-color: hsla(0, 0%, 100%, 1);
+  } */
+   /* + .card {
+     margin-block-end: 1.2rem;
+   } */
+}
+
