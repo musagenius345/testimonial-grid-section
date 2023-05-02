@@ -1,0 +1,20 @@
+.profile{
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  gap: 1em;
+  
+  &__pic{
+    border-radius: 50%;
+    width: 56px;
+    heigth: 56px;
+    
+    /* object-fit: cover; */
+  }
+  &__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+}

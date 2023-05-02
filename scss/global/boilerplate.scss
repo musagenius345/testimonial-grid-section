@@ -1,0 +1,26 @@
+:root {
+  --step--2: clamp(0.69rem, calc(0.65rem + 0.21vw), 0.84rem);
+--step--1: clamp(0.83rem, calc(0.75rem + 0.42vw), 1.13rem);
+--step-0: clamp(1.00rem, calc(0.86rem + 0.71vw), 1.50rem);
+--step-1: clamp(1.20rem, calc(0.97rem + 1.14vw), 2.00rem);
+--step-2: clamp(1.44rem, calc(1.09rem + 1.75vw), 2.67rem);
+--step-3: clamp(1.73rem, calc(1.21rem + 2.61vw), 3.55rem);
+--step-4: clamp(2.07rem, calc(1.31rem + 3.80vw), 4.74rem);
+--step-5: clamp(2.49rem, calc(1.40rem + 5.46vw), 6.31rem);
+--step-6: clamp(2.99rem, calc(1.44rem + 7.76vw), 8.42rem);
+--step-7: clamp(3.58rem, calc(1.40rem + 10.91vw), 11.22rem);
+--step-8: clamp(4.30rem, calc(1.26rem + 15.22vw), 14.95rem);
+}
+html {
+background-color: hsl(0, 0, 87%);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

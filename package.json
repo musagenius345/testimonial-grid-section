@@ -1,0 +1,15 @@
+{
+  "name": "testimonials-grid-section-main",
+  "version": "1.0.0",
+  "description": "et# Frontend Mentor - Testimonials grid section",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm:watch-*\" ",
+    "watch-sass": "sass scss/main.scss css/style.css --watch",
+    "watch-nano": "postcss cssnano css/style.css -o css/style.min.css -w",
+    "watch-live":"live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Barlow-600';
+  src: url('fonts/BarlowSemiCondensed-Bold.ttf');
+}
+@font-face {
+  font-family: 'Barlow-500';
+  src: url('fonts/BarlowSemiCondensed-Medium.ttf');
+}
+
+h4, p .quote{
+  font-family: 'Barlow-600';
+}
+h3, p .detail{
+  font-family: 'Barlow-500';
+}
