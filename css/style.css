@@ -576,6 +576,10 @@ p {
     grid-area: kira;
   }
 }
+main {
+  margin-block-start: 2rem;
+}
+
 .card {
   border-radius: 12px;
   color: hsla(0, 0%, 100%, 0.8);
